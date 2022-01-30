@@ -1,0 +1,42 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+html{
+    height: 100%;
+}
+body{
+    background: linear-gradient( rgb(22, 21, 21), #272726,#272726, #272726,#272726,#272726, rgb(22, 21, 21)) ;
+    font-family: arial;
+    
+}
+nav{
+    object-position: center;
+    margin-top: 20%;
+}
+h3 {
+    color: white;
+    margin: 50px auto;
+    font-size: 1.5em;
+    text-align: center;
+    animation: 7s infinite;
+  
+}
+h3:hover {
+  width: 20px;
+  height: 20px;
+  background-color: crimson;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+h3:hover{
+    cursor: auto;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: crimson;
+    transition: 1s;
+
+}
